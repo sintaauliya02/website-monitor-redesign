@@ -1,0 +1,40 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.invisible-border-input {
+    border: none; /* Remove the border */
+    border-radius: 6px; /* Set the border radius to 6 pixels */
+    background-color: #ECECEC; /* Make the background greyish */
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px; /* Center the input */
+    width: 50%;
+    height: 8%;
+    text-align: left; /* Align the text to the left */
+    opacity: 0.6; /* Set the opacity for the input text */
+}
+
+
+.login-button:hover {
+    background-color: #F7F7F7; /* New background color on hover */
+    color: #880000; /* New text color on hover */
+	border: 1px solid #880000;
+}
+.login-button {
+    background-color: #880000; /* Button background color */
+	text-align: center;
+	font-weight: 600;
+	border: 1px solid #880000;
+    color: #FFFFFF; /* Button text color */
+    font-family: 'Poppins', sans-serif;
+	text-decoration: none; 
+    padding: 8px 40px; /* Adjust padding as needed */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.navbar-text {
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-size: 30px;
+	font-color: #880000;
+}
